@@ -18,5 +18,6 @@ variable "instance_type" {
 variable "instance_count" {
     description = "how many instance required"
     type = number
-    default = 11  
+    default = 11 
+     
 }
