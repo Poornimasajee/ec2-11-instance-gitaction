@@ -4,6 +4,6 @@ output "instance_ids" {
   
 }
 output "public_ips" {
-    value = [ for instance in aws_aws_instance.poorni_ec2 : instance.public_ip ]
+    value = [ for instance in aws_aws_instance.poorni_ec2 : instance.public_ips ]
   
 }
