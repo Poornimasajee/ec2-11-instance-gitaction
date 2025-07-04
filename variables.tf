@@ -13,6 +13,7 @@ variable "instance_type" {
     description = "instance type required"
     type = string
     default = "t2.micro"  
+    
 }
 
 variable "instance_count" {
