@@ -24,7 +24,7 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: set up terraform
-        uses: hashicorp/setup-terraform@v4
+        uses: hashicorp/setup-terraform@v3
         with:
           terraform_version: 1.5.0
       - name: Terraform init
